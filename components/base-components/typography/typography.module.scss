@@ -1,0 +1,24 @@
+.typography {
+    font-family: $font-family-highlight;
+}
+
+.heading {
+    line-height: $line-height-distant;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-lg;
+    color: $neutral-color-1;
+}
+
+.subtitle {
+    line-height: $line-height-medium;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-md;
+    color: $neutral-color-2;
+}
+
+.paragraph {
+    font-size: $font-size-xs;
+    line-height: $line-height-distant;
+    font-weight: $font-weight-regular;
+    color: $neutral-color-2;
+}

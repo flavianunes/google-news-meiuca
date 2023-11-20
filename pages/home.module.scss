@@ -1,0 +1,15 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-gap: $spacing-size-nano;
+    grid-template-columns: repeat(auto-fit, minmax($card-min-width, 1fr));
+}
